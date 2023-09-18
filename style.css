@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+    background-color: #6a6a6a;
+    overflow: hidden;
+    min-height: 100px;
+    width: 100%;
+    position: sticky;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.navbar-brand {
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.collapse {
+  float: right;
+}
+
+.navbar-nav li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+
+.nav-link {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-nav {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
